@@ -6,6 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+    <!--owl CSS-->
+    <link rel="stylesheet" href="style/Owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/Owl/owl.theme.default.min.css">
+
+
     <title>NETFLIX COLETÂNEA</title>
 </head>
 
@@ -14,20 +22,19 @@
         <div class="conteiner">
             <h2 class="logo">NETFLIX COLETÂNEA</h2>
             <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Filmes Ação</a>
-                <a href="#">Filmes Aventura</a>
-                <a href="#">Filmes Comédia</a>
+                <a href="#inicio">Inicio</a>
+                <a href="#corrida">Filmes Corrida</a>
+                <a href="#acao">Filmes Ação</a>
+                <a href="#comedia">Filmes Comédia</a>
             </nav>
         </div>
     </header>
-    <main>
+    <main id="inicio">
         <div class="filme-principal">
             <div class="container">
-                <h3 class="titulo">Velozes e Furiosos</h3>
-                <p class="descricao">Dominic Toretto e sua família precisam enfrentar o seu irmão mais novo
-                    Jakob, um assassino mortal que está trabalhando com uma antiga inimiga,
-                    a cyber-terrorista Cipher.</p>
+                <h3 class="titulo">Velozes & Furiosos: Coleção</h3>
+                <p class="descricao">Dominic Toretto e sua equipe usa a velocidade e a fúria para se livrar de
+                    enrascadas perigosas e ilegais.</p>
                 <div class="botoes">
                     <button role="button" class="botao">
                         <i class="fa-solid fa-play"></i>
@@ -41,7 +48,111 @@
             </div>
         </div>
     </main>
+    <section id=corrida>
+        <h3> Corrida </h3>
+        <div class="carrpsel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="img/veloz1.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/veloz2.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/veloz3.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/veloz4.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/veloz5.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/veloz6.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/veloz7.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/veloz8.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/veloz9.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/veloz10.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="acao">
+        <h3> Ação </h3>
+        <div class="carrpsel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="img/missão1.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/missão2.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/missão3.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/missão4.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/missão5.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/missão6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="comedia">
+        <h3> Comédia </h3>
+        <div class="carrpsel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="img/os trapalhoes/01.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/os trapalhoes/02.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/os trapalhoes/03.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/os trapalhoes/04.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/os trapalhoes/05.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/os trapalhoes/06.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/os trapalhoes/07.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/os trapalhoes/08.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/os trapalhoes/09.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/os trapalhoes/10.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
     <script src="https://kit.fontawesome.com/41b3a5c081.js" crossorigin="anonymous"></script>
+    <script src="js/Owl/jquery.min.js"></script>
+    <script src="js/Owl/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
 </body>
 
 </html>
